@@ -1,0 +1,210 @@
+{
+	"annotation_candidates": [{
+		"offset": 23,
+		"resource_candidates": [{
+			"confidence": 1,
+			"description": "(\"Fabric\" redirects here. For other uses, see Fabric (disambiguation) and Textile (disambiguation).) A textile or cloth is a flexible material consisting of a network of natural or artificial fibres (yarn or thread). Yarn is produced by spinning raw fibres of wool, flax, cotton, or other material to produce long strands. Textiles are formed by weaving, knitting, crocheting, knotting, or felting. The words fabric and cloth are used in textile assembly trades (such as tailoring and dressmaking) as synonyms for textile. However, there are subtle differences in these terms in specialized usage. Textile refers to any material made of interlacing fibres. Fabric refers to any material made through weaving, knitting, spreading, crocheting, or bonding that may be used in production of further goods (garments, etc.). Cloth may be used synonymously with fabric but often refers to a finished piece of fabric used for a specific purpose (e.g., table cloth).",
+			"label": "Textile",
+			"offset": 23,
+			"resource": "http://dbpedia.org/resource/Textile",
+			"source": "babelfy",
+			"text": "fabric",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Karachi_-_Pakistan-market.jpg?width=300",
+			"token_span": {
+				"end": 5,
+				"start": 5
+			}
+		}, {
+			"confidence": 0.004135464384227653,
+			"description": "Aircraft fabric covering is a term used for both the material used and the process of covering aircraft open structures. It is also used for reinforcing closed plywood structures, the de Havilland Mosquito being an example of this technique, and on the pioneering all-wood monocoque fuselages of certain World War I German aircraft like the LFG Roland C.II, in its wrapped Wickelrumpf plywood strip and fabric covering. Early aircraft used organic materials such as cotton and cellulose nitrate dope, modern fabric-covered designs usually use synthetic materials such as Dacron and butyrate dope for adhesive, this method is often used in the restoration of older types that were originally covered using traditional methods.",
+			"label": "Aircraft fabric covering",
+			"offset": 23,
+			"resource": "http://dbpedia.org/resource/Aircraft_fabric_covering",
+			"source": "spotlight",
+			"text": "fabric",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/TigerTail.JPG?width=300",
+			"token_span": {
+				"end": 5,
+				"start": 5
+			}
+		}],
+		"text": "fabric",
+		"token_span": {
+			"end": 5,
+			"start": 5
+		}
+	}, {
+		"offset": 13,
+		"resource_candidates": [{
+			"confidence": 0.25,
+			"description": "A shoe is an item of footwear intended to protect and comfort the human foot while doing various activities. Shoes are also used as an item of decoration. The design of shoes has varied enormously through time and from culture to culture, with appearance originally being tied to function. Additionally, fashion has often dictated many design elements, such as whether shoes have very high heels or flat ones. Contemporary footwear varies widely in style, complexity and cost. Basic sandals may consist of only a thin sole and simple strap. High fashion shoes may be made of very expensive materials in complex construction and sell for thousands of dollars a pair. Other shoes are for very specific purposes, such as boots designed specifically for mountaineering or skiing. Traditionally, shoes have been made from leather, wood or canvas, but are increasingly made from rubber, plastics, and other petrochemical-derived materials. Though it has evolved over hundreds of thousands of years in relation to vastly varied terrain and climate conditions, the human foot is still vulnerable to environmental hazards such as sharp rocks and hot ground, against which, shoes can protect.",
+			"label": "Shoe",
+			"offset": 13,
+			"resource": "http://dbpedia.org/resource/Shoe",
+			"source": "babelfy",
+			"text": "shoes",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Shoe_BNC.jpg?width=300",
+			"token_span": {
+				"end": 3,
+				"start": 3
+			}
+		}, {
+			"confidence": 0.125,
+			"description": "A dress shoe (U.S. English) is a shoe to be worn at smart casual or more formal events. A dress shoe is typically contrasted to an athletic shoe. Dress shoes are worn by many as their standard daily shoes, and are widely used in dance, for parties, and for special occasions.",
+			"label": "Dress shoe",
+			"offset": 13,
+			"resource": "http://dbpedia.org/resource/Dress_shoe",
+			"source": "babelfy",
+			"text": "shoes",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Dress_shoes.jpg?width=300",
+			"token_span": {
+				"end": 3,
+				"start": 3
+			}
+		}, {
+			"confidence": 0.125,
+			"description": "Shoe tossing, the act of using shoes as projectiles or improvised weapons, is a constituent of a number of folk sports and practices. Today, it is commonly the act of throwing a pair of shoes onto telephone wires, powerlines, or other raised wires. A related practice is shoe tossing onto trees or fences.",
+			"label": "Shoe tossing",
+			"offset": 13,
+			"resource": "http://dbpedia.org/resource/Shoe_tossing",
+			"source": "babelfy",
+			"text": "shoes",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Shoe_tossing_in_Vitoria-Gasteiz_%282013%29_2.jpg?width=300",
+			"token_span": {
+				"end": 3,
+				"start": 3
+			}
+		}, {
+			"confidence": 0.009525335648723815,
+			"description": "Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature. Footwear in the manner of shoes therefore primarily serves the purpose to ease the locomotion and prevent injuries. Secondly footwear can also be used for fashion and adornment as well as to indicate the status or rank of the person within a social structure. Socks and other hosiery are typically worn additionally between the feet and other footwear for further comfort and relief. Cultures have different customs regarding footwear. These include not using any in some situations, usually bearing a symbolic meaning. This can however also be imposed on specific individuals to place them at a practical disadvantage against shod people, if they are excluded from having footwear available or are prohibited from using any. This usually takes place in situations of captivity, such as imprisonment or slavery, where the groups are among other things distinctly divided by whether or whether not footwear is being worn. In these cases the use of footwear categorically indicates the exercise of power as against being devoid of footwear, evidently indicating inferiority. Footwear is in use since earliest human history, archeological finds of complete shoes date back to the copper age (ca. 5.000 BCE). Some ancient civilizations, such as Egypt however saw no practical need for footwear due to convenient climatic and landscape situations and used shoes primarily as ornaments and insignia of power. The Romans saw clothing and footwear as unmistakable signs of power and status in society, and most Romans wore footwear, while slaves and peasants remained barefoot. The Middle Ages saw the rise of high-heeled shoes, also associated with power, and the desire to look larger than life, and artwork from that period often depicts bare feet as a symbol of poverty. Depictions of captives such as prisoners or slaves from the same period well into the 18th century show the individuals barefooted almost exclusively, at this contrasting the prevailing partakers of the scene. Officials like prosecutors, judges but also slave owners or passive bystanders were usually portrayed wearing shoes. In some cultures, people remove their shoes before entering a home. Bare feet are also seen as a sign of humility and respect, and adherents of many religions worship or mourn while barefoot. Some religious communities explicitly require people to remove shoes before they enter holy buildings, such as temples. In several cultures people remove their shoes as a sign of respect towards someone of higher standing. In a similar context deliberately forcing other people to go barefoot while being shod oneself has been used to clearly showcase and convey one's superiority within a setting of power disparity. Practitioners of the craft of shoemaking are called shoemakers, cobblers, or cordwainers.",
+			"label": "Footwear",
+			"offset": 13,
+			"resource": "http://dbpedia.org/resource/Footwear",
+			"source": "spotlight",
+			"text": "shoes",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/2014_Erywa%C5%84%2C_Damskie_buty_na_wysokim_obcasie_na_witrynie_sklepowej.jpg?width=300",
+			"token_span": {
+				"end": 3,
+				"start": 3
+			}
+		}, {
+			"confidence": 0.0032244599337945172,
+			"description": "Sneakers (also known as athletic shoes, tennis shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise. Sneakers have evolved to be used for casual everyday activities. The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials. Examples of such shoes include athletic footwear such as: basketball shoes, tennis shoes, cross trainers and other shoes worn for specific sports.",
+			"label": "Sneakers",
+			"offset": 13,
+			"resource": "http://dbpedia.org/resource/Sneakers",
+			"source": "spotlight",
+			"text": "shoes",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Black_Converse_sneakers.JPG?width=300",
+			"token_span": {
+				"end": 3,
+				"start": 3
+			}
+		}, {
+			"confidence": 0.0013940275825978232,
+			"description": "Shoemaking is the process of making footwear. Originally, shoes were made one at a time by hand. Traditional handicraft shoemaking has now been largely superseded in volume of shoes produced by industrial mass production of footwear, but not necessarily in quality, attention to detail, or craftsmanship. Shoemakers, also known as cobblers, may produce a range of footwear items, including shoes, boots, sandals, clogs and moccasins. Such items are generally made of leather, wood, rubber, plastic, jute or other plant material, and often consist of multiple parts for better durability of the sole, stitched to a leather upper. Trades that engage in shoemaking have included the cordwainer's and cobbler's trades. Today shoes are often made on a factory basis rather than a craft basis.",
+			"label": "Shoemaking",
+			"offset": 13,
+			"resource": "http://dbpedia.org/resource/Shoemaking",
+			"source": "spotlight",
+			"text": "shoes",
+			"thumbnail": "http://en.wikipedia.org/wiki/Special:FilePath/Capri_-_7224.jpg?width=300",
+			"token_span": {
+				"end": 3,
+				"start": 3
+			}
+		}],
+		"text": "shoes",
+		"token_span": {
+			"end": 3,
+			"start": 3
+		}
+	}, {
+		"offset": 0,
+		"resource_candidates": [{
+			"confidence": 0.5,
+			"description": "Food is any substance consumed to provide nutritional support for the body. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Historically, people secured food through two methods: hunting and gathering and agriculture. Today, the majority of the food energy required by the ever increasing population of the world is supplied by the food industry. Food safety and food security are monitored by agencies like the International Association for Food Protection, World Resources Institute, World Food Programme, Food and Agriculture Organization, and International Food Information Council. They address issues such as sustainability, biological diversity, climate change, nutritional economics, population growth, water supply, and access to food. The right to food is a human right derived from the International Covenant on Economic, Social and Cultural Rights (ICESCR), recognizing the \"right to an adequate standard of living, including adequate food\", as well as the \"fundamental right to be free from hunger\".",
+			"label": "Food",
+			"offset": 4,
+			"resource": "http://dbpedia.org/resource/Food",
+			"source": "babelfy",
+			"text": "food",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Good_Food_Display_-_NCI_Visuals_Online.jpg?width=300",
+			"token_span": {
+				"end": 1,
+				"start": 1
+			}
+		}, {
+			"confidence": 0.375,
+			"description": "Pet food is plant or animal material intended for consumption by pets. Typically sold in pet stores and supermarkets, it is usually specific to the type of animal, such as dog food or cat food. Most meat used for nonhuman animals is a byproduct of the human food industry, and is not regarded as \"human grade\". Four companies—Procter & Gamble, Nestlé, Mars, and Colgate-Palmolive—are thought to control 80% of the world's pet-food market, which in 2007 amounted to US$ 45.12 billion for cats and dogs alone.",
+			"label": "Pet food",
+			"offset": 4,
+			"resource": "http://dbpedia.org/resource/Pet_food",
+			"source": "babelfy",
+			"text": "food",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Pet_Food_Aisle.jpg?width=300",
+			"token_span": {
+				"end": 1,
+				"start": 1
+			}
+		}, {
+			"confidence": 0.0625,
+			"description": "Food Records was a record label set up in 1984 by David Balfe, who later took on Andy Ross as his partner. Originally formed as an independent record label with distribution going through Rough Trade Distribution, Food also licensed acts though WEA Records, before becoming closely associated with the EMI group's Parlophone label. EMI invested in the label and then in 1994 EMI gained complete control and folded it into Parlophone in 2000.",
+			"label": "Food Records",
+			"offset": 4,
+			"resource": "http://dbpedia.org/resource/Food_Records",
+			"source": "babelfy",
+			"text": "food",
+			"thumbnail": null,
+			"token_span": {
+				"end": 1,
+				"start": 1
+			}
+		}, {
+			"confidence": 0.5714285714285714,
+			"description": "The 2007 pet food recalls comprise the contamination and wide recall of many brands of cat and dog foods beginning in March 2007, and the ensuing developments involving the human food supply. The recalls in North America, Europe, and South Africa came in response to reports of renal failure in pets. Initially, the recalls were associated with the consumption of mostly wet pet foods made with wheat gluten from a single Chinese company. After more than three weeks of complaints from consumers, the recall began voluntarily with the Canadian company Menu Foods on 16 March 2007, when a company test showed sickness and death in some of the test animals. Soon after, there were numerous media reports of animal deaths as a result of kidney failure. In the following weeks, several other companies who received the contaminated wheat gluten also voluntarily recalled dozens of pet food brands. One month after the initial recall, contaminated rice protein from a different source in China was also identified as being associated with kidney failure in pets in the United States, while contaminated corn gluten was associated with kidney failure with pets in South Africa. As a result of investigating the 2007 pet food recalls, a broader Chinese protein export contamination investigation unfolded, raising concerns about the safety of the human food supply. By the end of March, veterinary organizations reported more than 100 pet deaths amongst nearly 500 cases of kidney failure, with one online database self-reporting as many as 3,600 deaths as of 11 April. The U.S. Food and Drug Administration has received reports of several thousand cats and dogs who have died after eating contaminated food, but have only confirmed 14 cases, in part because there is no centralized government database of animal sickness or death in the United States, as there are with humans (such as the Centers for Disease Control). As a result, many sources speculate the actual number of affected pets may never be known, and experts are concerned that the actual death toll could potentially reach into the thousands. Overall, several major companies have recalled more than 5300 pet food products, with most of the recalls coming from Menu Foods. The contamination was caused by melamine in the affected foods. The Chinese company behind the contaminated wheat gluten has initially denied any involvement in the contamination, but is cooperating with Chinese and American investigators. In the United States, there has been extensive media coverage of the recall. There has been widespread public outrage and calls for government regulation of pet foods, which had previously been self-regulated by pet food manufacturers. The United States Senate held an oversight hearing on the matter by 12 April. The economic impact on the pet food market has been extensive, with Menu Foods alone losing at least $42 million from the recall, even without taking into account reduced sales. The several waves of recalls, many issued late on Friday evenings possibly to avoid media coverage, and the events have caused distrust in some consumers. Reports of widespread and possibly intentional adulteration of Chinese animal feed with melamine have raised the issue of melamine contamination in the human food supply, both in China and abroad. On 27 April, the U.S. FDA subjected all vegetable proteins imported from China, intended for human or animal consumption, to detention without physical examination, including: wheat gluten, rice gluten, rice protein, rice protein concentrate, corn gluten, corn gluten meal, corn byproducts, soy protein, soy gluten, proteins (includes amino acids and protein hydrosylates), and mung bean protein. In a teleconference with reporters on 1 May, officials from the FDA and U.S. Department of Agriculture said between 2.5 and 3 million people in the United States had consumed chickens that had consumed feed containing contaminated vegetable protein from China. Current research has focused on the combination of melamine and cyanuric acid in causing renal failure. Reports that cyanuric acid may be an independently and potentially widely used adulterant in China have heightened concerns for both pet and human health. As of 7 May, United States food safety officials stated: \"There is very low risk to human health from consuming meat from hogs and chickens known to have been fed animal feed supplemented with pet food scraps that contained melamine and melamine-related compounds\"",
+			"label": "2007 pet food recalls",
+			"offset": 0,
+			"resource": "http://dbpedia.org/resource/2007_pet_food_recalls",
+			"source": "babelfy",
+			"text": "Pet food",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Pet_Food_Aisle.jpg?width=300",
+			"token_span": {
+				"end": 1,
+				"start": 0
+			}
+		}, {
+			"confidence": 0.5,
+			"description": "A pet or companion animal is an animal kept primarily for a person's company or protection, as opposed to working animals, sport animals, livestock, and laboratory animals, which are kept primarily for performance, agricultural value, or research. The most popular pets are noted for their attractive appearances and their loyal or playful personalities. Pets provide their owners (or guardians) physical and emotional benefits. Walking a dog can supply both the human and pet with exercise, fresh air, and social interaction. Pets can give companionship to elderly adults who do not have adequate social interaction with other people, as well as other people that are living alone. There is a medically approved class of therapy animals, mostly dogs or cats, that are brought to visit confined humans. Pet therapy utilizes trained animals and handlers to achieve specific physical, social, cognitive, and emotional goals with patients. The most popular pets are likely dogs and cats, but people also keep house rabbits, ferrets; rodents such as gerbils, hamsters, chinchillas, fancy rats, and guinea pigs; avian pets, such as canaries, parakeets, corvids and parrots; reptile pets, such as turtles, lizards and snakes; aquatic pets, such as goldfish, tropical fish and frogs; and arthropod pets, such as tarantulas and hermit crabs. Some scholars and animal rights organizations have raised concern over pet-keeping with regards to the autonomy and objectification of nonhuman animals.",
+			"label": "Pet",
+			"offset": 0,
+			"resource": "http://dbpedia.org/resource/Pet",
+			"source": "babelfy",
+			"text": "Pet",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Trillium_Poncho_cat_dog.jpg?width=300",
+			"token_span": {
+				"end": 0,
+				"start": 0
+			}
+		}, {
+			"confidence": 0.25,
+			"description": "Pet Shop Boys are an English electronic pop duo, formed in London in 1981 and consisting of Neil Tennant (main vocals, keyboards, occasional guitar) and Chris Lowe (keyboards, occasional vocals). Pet Shop Boys have sold more than 50 million records worldwide, and are listed as the most successful duo in UK music history by The Guinness Book of Records. Three-time Brit Award winners and six-time Grammy nominees, since 1985 they have achieved forty-two Top 30 singles and 22 Top 10 hits in the UK Singles Chart, including four UK number ones: \"West End Girls\" (also number one on the US Billboard Hot 100), \"It's a Sin\", an acclaimed cover of \"Always on My Mind\" and \"Heart\". Other hit songs include a cover of \"Go West\", \"Opportunities (Let's Make Lots of Money)\" (satire of Thatcherism) and \"What Have I Done to Deserve This?\" in a duet with Dusty Springfield. At the 2009 Brit Awards, Pet Shop Boys received an award for Outstanding Contribution to Music.",
+			"label": "Pet Shop Boys",
+			"offset": 0,
+			"resource": "http://dbpedia.org/resource/Pet_Shop_Boys",
+			"source": "babelfy",
+			"text": "Pet",
+			"thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Pet_Shop_Boys_interview_2013_still.png?width=300",
+			"token_span": {
+				"end": 0,
+				"start": 0
+			}
+		}],
+		"text": "Pet food",
+		"token_span": {
+			"end": 1,
+			"start": 0
+		}
+	}],
+	"text": "Pet food for shoes and fabric"
+} 
