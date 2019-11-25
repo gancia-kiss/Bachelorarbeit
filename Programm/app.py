@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import sys
 import json
@@ -36,7 +31,6 @@ class Description(Base):
     label         = Column(String, nullable=False)
     description   = Column(String, nullable=False)
         
-    #@property
     def __init__(self,resource,label,description):
         self.resource    = resource
         self.label       = label
@@ -52,8 +46,6 @@ class Description(Base):
      }
     
       
-
-#Dictionary ={}
 class Annotation_candidates(Base):
     __tablename__         = 'annotation_candidate'
     id                    = Column(Integer, primary_key=True)
@@ -61,7 +53,6 @@ class Annotation_candidates(Base):
     offset                = Column(Integer, nullable=False)
     resources_candidates  = relationship(Description)
     
-   # @property
     def __init__(self,text,offset,resources_candidates):
         self.text                 = text
         self.offset               = offset
@@ -88,10 +79,6 @@ Base.metadata.create_all(engine1)
 engine = create_engine('sqlite:///annotation_candidate.db?check_same_thread=False')
 Base.metadata.create_all(engine)
 
-
-# In[2]:
-
-
 global session1
 global session
 
@@ -112,13 +99,6 @@ def get_source(syns):
     return syns.lexname()
 
 def build_description(resource,label,description,session1):
-    #engine1 = create_engine('sqlite:///description.db?check_same_thread=False')
-    #Base.metadata.bind = engine1
-
-    #DBSession = sessionmaker(bind=engine1)
-    #session1  = DBSession()
-   # orm.init_db('sqlite:////tmp/db.sqlite')
-    #global Description
     descr = Description(resource = resource,label = label,description = description)
     #print(descr)
     session1.add(descr)
@@ -130,15 +110,13 @@ def build_description(resource,label,description,session1):
 
 def build_annot_candidate(offset,text,resources_candidates,session):
     global Annotation_candidates
-    annotation_candidate = Annotation_candidates(text = text, offset = offset, resources_candidates = resources_candidates)
+    annotation_candidate = Annotation_candidates(text = text, offset = offset, resources_candidates = resources_candidates) #ici pose probleme d'apres mon debugger un probleme de Type error. resources_candidates = resources_candidates 
     session.add(annotation_candidate)
     session.commit()
     session.refresh(annotation_candidate)
     return annotation_candidate
     #return jsonify(Annotation_candidates = annotation_candidate.serialize)
 
-
-# In[3]:
 
 
 import nltk
@@ -162,30 +140,15 @@ def stop_words_filtering(text):
 #example = "Pet food for shoes and fabric"    
         
     b = b + a.findall(text)
-    
-       # word_tokens = word_tokens + word_tokenize(line) 
-        
     filtered_sentence =  [w for w in b if not w in stop_words] 
-  
     filtered_sentence = [] 
   
     for w in b: #just filtern stopword in a text
         if w not in stop_words: 
-            filtered_sentence.append(w) 
-    #fobj.close()            
+            filtered_sentence.append(w)           
     return filtered_sentence 
-    
-
-
-# In[4]:
-
-
 #make_annotation(test.txt)
-stop_words_filtering("pet for food and fabric")
-
-
-# In[5]:
-
+#stop_words_filtering("pet for food and fabric")
 
 def get_description(w):
     engine1 = create_engine('sqlite:///description.db?check_same_thread=False')
@@ -201,7 +164,7 @@ def get_description(w):
         i = i+1
     description  = session1.query(Description).all()
     description2 = [a.serialize for a in description]
-    print (description2)
+   # print (description2)
    # return description
     return description2
     #return render_template("description.html")
@@ -220,9 +183,6 @@ def make_annotation(text):
     for word in filtered_sentence:
         build_annot_candidate(get_offset(word, text), word, get_description(word),session1)
     return 1
-
-
-# In[ ]:
 
 
 #api funktionen
@@ -256,16 +216,12 @@ def annotsFunction2(text):
 def say_hello():
   annotation_candidate = session.query(Annotation_candidate).all()
   return render_template('annotation_candidate.html', annotation_candidate=annotation_candidate)
- # return 'Hello from Server'
     
 if __name__ == '__main__':
     with app.app_context():
    # app.debug = True
         from werkzeug.serving import run_simple
         run_simple('localhost', 5001, app)
-
-
-# In[ ]:
 
 
 
