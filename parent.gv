@@ -1,0 +1,501 @@
+graph parent {
+	"device.n.01" -- "detector.n.01" [len=1.00]
+	"device.n.01" -- "machine.n.01" [len=1.00]
+	"wrongdoer.n.01" -- "principal.n.05" [len=1.00]
+	"athlete.n.01" -- "climber.n.04" [len=1.00]
+	"case.n.01" -- "time.n.01" [len=1.00]
+	"get.v.01" -- "line_up.v.02" [len=1.00]
+	"motion.n.04" -- "shaking.n.02" [len=1.00]
+	"change.n.03" -- "motion.n.03" [len=1.00]
+	"change.n.03" -- "motion.n.06" [len=1.00]
+	"action.n.01" -- "change.n.03" [len=1.00]
+	"part.n.03" -- "body_part.n.01" [len=1.00]
+	"region.n.01" -- "extremity.n.04" [len=1.00]
+	"person.n.01" -- "adventurer.n.01" [len=1.00]
+	"person.n.01" -- "explorer.n.01" [len=1.00]
+	"person.n.01" -- "survivalist.n.01" [len=1.00]
+	"person.n.01" -- "bad_person.n.01" [len=1.00]
+	"person.n.01" -- "enrollee.n.01" [len=1.00]
+	"person.n.01" -- "contestant.n.01" [len=1.00]
+	"person.n.01" -- "worker.n.01" [len=1.00]
+	"person.n.01" -- "juvenile.n.01" [len=1.00]
+	"person.n.01" -- "capitalist.n.02" [len=1.00]
+	"person.n.01" -- "traveler.n.01" [len=1.00]
+	"person.n.01" -- "preserver.n.03" [len=1.00]
+	"person.n.01" -- "relative.n.01" [len=1.00]
+	"person.n.01" -- "leader.n.01" [len=1.00]
+	"adventurer.n.01" -- "mountaineer.n.01" [len=1.00]
+	"kind.n.01" -- "like.n.01" [len=1.00]
+	"entity.n.01" -- "lose.v.05" [len=1.00]
+	"entity.n.01" -- "use.v.01" [len=1.00]
+	"entity.n.01" -- "use.v.03" [len=1.00]
+	"entity.n.01" -- "utilitarian.s.01" [len=1.00]
+	"entity.n.01" -- "behavioral.a.01" [len=1.00]
+	"entity.n.01" -- "criminal.s.02" [len=1.00]
+	"entity.n.01" -- "possibly.r.01" [len=1.00]
+	"entity.n.01" -- "physical.s.07" [len=1.00]
+	"entity.n.01" -- "fairly.r.02" [len=1.00]
+	"entity.n.01" -- "true.s.10" [len=1.00]
+	"entity.n.01" -- "exploited.s.02" [len=1.00]
+	"entity.n.01" -- "early.a.02" [len=1.00]
+	"entity.n.01" -- "know.v.02" [len=1.00]
+	"entity.n.01" -- "normal.a.02" [len=1.00]
+	"entity.n.01" -- "microscopic.s.04" [len=1.00]
+	"entity.n.01" -- "present.a.02" [len=1.00]
+	"entity.n.01" -- "get.v.01" [len=1.00]
+	"entity.n.01" -- "besides.r.02" [len=1.00]
+	"entity.n.01" -- "able.s.03" [len=1.00]
+	"entity.n.01" -- "watch.v.04" [len=1.00]
+	"entity.n.01" -- "directly.r.01" [len=1.00]
+	"entity.n.01" -- "directly.r.02" [len=1.00]
+	"entity.n.01" -- "watch.v.06" [len=1.00]
+	"entity.n.01" -- "familiar.a.01" [len=1.00]
+	"entity.n.01" -- "deep.s.11" [len=1.00]
+	"entity.n.01" -- "either.r.01" [len=1.00]
+	"entity.n.01" -- "not.r.01" [len=1.00]
+	"entity.n.01" -- "existent.a.01" [len=1.00]
+	"entity.n.01" -- "real.s.03" [len=1.00]
+	"entity.n.01" -- "useful.a.01" [len=1.00]
+	"entity.n.01" -- "far.a.01" [len=1.00]
+	"entity.n.01" -- "far.s.02" [len=1.00]
+	"entity.n.01" -- "perfect.s.03" [len=1.00]
+	"entity.n.01" -- "combined.a.01" [len=1.00]
+	"entity.n.01" -- "sized.a.01" [len=1.00]
+	"entity.n.01" -- "express.v.02" [len=1.00]
+	"entity.n.01" -- "succeed.v.01" [len=1.00]
+	"entity.n.01" -- "act.v.01" [len=1.00]
+	"entity.n.01" -- "make.v.03" [len=1.00]
+	"entity.n.01" -- "consume.v.02" [len=1.00]
+	"entity.n.01" -- "examine.v.02" [len=1.00]
+	"entity.n.01" -- "support.v.01" [len=1.00]
+	"entity.n.01" -- "destroy.v.02" [len=1.00]
+	"entity.n.01" -- "change.v.01" [len=1.00]
+	"entity.n.01" -- "watch.v.01" [len=1.00]
+	"entity.n.01" -- "understand.v.01" [len=1.00]
+	"entity.n.01" -- "change.v.02" [len=1.00]
+	"entity.n.01" -- "analyze.v.01" [len=1.00]
+	"entity.n.01" -- "think.v.03" [len=1.00]
+	"entity.n.01" -- "perceive.v.01" [len=1.00]
+	"entity.n.01" -- "know.v.01" [len=1.00]
+	"entity.n.01" -- "equal.v.01" [len=1.00]
+	"entity.n.01" -- "physical_entity.n.01" [len=1.00]
+	"entity.n.01" -- "contend.v.06" [len=1.00]
+	"entity.n.01" -- "abstraction.n.06" [len=1.00]
+	"entity.n.01" -- "produce.v.02" [len=1.00]
+	"entity.n.01" -- "determine.v.03" [len=1.00]
+	"instrumentality.n.03" -- "device.n.01" [len=1.00]
+	"express.v.02" -- "state.v.01" [len=1.00]
+	"read.v.08" -- "say.v.11" [len=1.00]
+	"guess.v.02" -- "predict.v.01" [len=1.00]
+	"structure.n.03" -- "form.n.03" [len=1.00]
+	"exemplar.n.01" -- "pattern.n.05" [len=1.00]
+	"imitate.v.01" -- "model.v.01" [len=1.00]
+	"speculate.v.02" -- "suppose.v.01" [len=1.00]
+	"speculate.v.02" -- "guess.v.02" [len=1.00]
+	"principal.n.05" -- "criminal.n.01" [len=1.00]
+	"bad_person.n.01" -- "wrongdoer.n.01" [len=1.00]
+	"enrollee.n.01" -- "student.n.01" [len=1.00]
+	"carry_through.v.01" -- "do.v.03" [len=1.00]
+	"problem_solving.n.02" -- "inquiry.n.01" [len=1.00]
+	"investigate.v.01" -- "research.v.01" [len=1.00]
+	"investigate.v.01" -- "research.v.02" [len=1.00]
+	"investigate.v.01" -- "explore.v.02" [len=1.00]
+	"observe.v.04" -- "track.v.02" [len=1.00]
+	"being.n.01" -- "life.n.01" [len=1.00]
+	"being.n.01" -- "possibility.n.02" [len=1.00]
+	"time_period.n.01" -- "life.n.06" [len=1.00]
+	"time_period.n.01" -- "time.n.03" [len=1.00]
+	"time_period.n.01" -- "work_time.n.01" [len=1.00]
+	"contestant.n.01" -- "athlete.n.01" [len=1.00]
+	"intensity.n.02" -- "top.n.06" [len=1.00]
+	"succeed.v.01" -- "achieve.v.01" [len=1.00]
+	"businessperson.n.01" -- "businessman.n.01" [len=1.00]
+	"institution.n.01" -- "company.n.01" [len=1.00]
+	"discriminate.v.02" -- "isolate.v.01" [len=1.00]
+	"evaluate.v.02" -- "expect.v.01" [len=1.00]
+	"evaluate.v.02" -- "test.v.01" [len=1.00]
+	"evaluate.v.02" -- "think.v.01" [len=1.00]
+	"activity.n.01" -- "behavior.n.01" [len=1.00]
+	"activity.n.01" -- "occupation.n.01" [len=1.00]
+	"activity.n.01" -- "use.n.01" [len=1.00]
+	"worker.n.01" -- "employee.n.01" [len=1.00]
+	"worker.n.01" -- "assistant.n.01" [len=1.00]
+	"worker.n.01" -- "skilled_worker.n.01" [len=1.00]
+	"act.v.01" -- "anticipate.v.02" [len=1.00]
+	"act.v.01" -- "go.v.02" [len=1.00]
+	"act.v.01" -- "interact.v.01" [len=1.00]
+	"occupation.n.01" -- "employment.n.02" [len=1.00]
+	"occupation.n.01" -- "profession.n.02" [len=1.00]
+	"time.n.03" -- "day.n.02" [len=1.00]
+	"make.v.03" -- "establish.v.05" [len=1.00]
+	"make.v.03" -- "cause.v.01" [len=1.00]
+	"flag.n.01" -- "standard.n.06" [len=1.00]
+	"consume.v.02" -- "use.v.02" [len=1.00]
+	"spy.v.03" -- "detect.v.01" [len=1.00]
+	"malignant_tumor.n.01" -- "cancer.n.01" [len=1.00]
+	"happening.n.01" -- "case.n.01" [len=1.00]
+	"happening.n.01" -- "movement.n.03" [len=1.00]
+	"recognize.v.02" -- "know.v.09" [len=1.00]
+	"distinguish.v.01" -- "know.v.10" [len=1.00]
+	"distinguish.v.01" -- "discriminate.v.02" [len=1.00]
+	"internal_organ.n.01" -- "liver.n.01" [len=1.00]
+	"appearance.n.01" -- "look.n.03" [len=1.00]
+	"match.v.01" -- "look.v.09" [len=1.00]
+	"examine.v.02" -- "scan.v.01" [len=1.00]
+	"difference.n.01" -- "variety.n.06" [len=1.00]
+	"application.n.01" -- "technology.n.01" [len=1.00]
+	"profession.n.02" -- "technology.n.01" [len=1.00]
+	"support.v.01" -- "help.v.01" [len=1.00]
+	"destroy.v.02" -- "burn.v.01" [len=1.00]
+	"share.n.01" -- "way.n.12" [len=1.00]
+	"building.n.01" -- "house.n.12" [len=1.00]
+	"surface.n.02" -- "inside.n.02" [len=1.00]
+	"attendant.n.01" -- "rocker.n.01" [len=1.00]
+	"state.n.02" -- "motion.n.04" [len=1.00]
+	"state.n.02" -- "being.n.01" [len=1.00]
+	"state.n.02" -- "condition.n.01" [len=1.00]
+	"state.n.02" -- "feeling.n.01" [len=1.00]
+	"state.n.02" -- "condition.n.03" [len=1.00]
+	"vicinity.n.01" -- "proximity.n.02" [len=1.00]
+	"change.v.01" -- "enable.v.01" [len=1.00]
+	"change.v.01" -- "better.v.02" [len=1.00]
+	"change.v.01" -- "end.v.02" [len=1.00]
+	"juvenile.n.01" -- "child.n.01" [len=1.00]
+	"custodian.n.01" -- "caretaker.n.01" [len=1.00]
+	"child.n.02" -- "baby.n.01" [len=1.00]
+	"good.n.03" -- "benefit.n.02" [len=1.00]
+	"prosperity.n.02" -- "wellbeing.n.01" [len=1.00]
+	"inform.v.01" -- "indicate.v.02" [len=1.00]
+	"inform.v.01" -- "indicate.v.03" [len=1.00]
+	"fundamental_quantity.n.01" -- "temperature.n.01" [len=1.00]
+	"fundamental_quantity.n.01" -- "time_period.n.01" [len=1.00]
+	"physical_property.n.01" -- "temperature.n.01" [len=1.00]
+	"physical_property.n.01" -- "perceptibility.n.01" [len=1.00]
+	"condition.n.01" -- "comfort.n.01" [len=1.00]
+	"condition.n.01" -- "health.n.02" [len=1.00]
+	"condition.n.01" -- "physical_condition.n.01" [len=1.00]
+	"gratification.n.01" -- "comfort.n.05" [len=1.00]
+	"supervisor.n.01" -- "proctor.n.01" [len=1.00]
+	"organism.n.01" -- "animal.n.01" [len=1.00]
+	"organism.n.01" -- "person.n.01" [len=1.00]
+	"act.n.02" -- "action.n.01" [len=1.00]
+	"act.n.02" -- "wear.n.03" [len=1.00]
+	"act.n.02" -- "activity.n.01" [len=1.00]
+	"orderliness.n.01" -- "organization.n.05" [len=1.00]
+	"representation.n.02" -- "map.n.01" [len=1.00]
+	"thing.n.12" -- "part.n.03" [len=1.00]
+	"thing.n.12" -- "body_of_water.n.01" [len=1.00]
+	"location.n.01" -- "region.n.01" [len=1.00]
+	"location.n.01" -- "region.n.03" [len=1.00]
+	"location.n.01" -- "point.n.02" [len=1.00]
+	"body_of_water.n.01" -- "ocean.n.01" [len=1.00]
+	"perceptibility.n.01" -- "visibility.n.01" [len=1.00]
+	"degree.n.01" -- "low.n.03" [len=1.00]
+	"degree.n.01" -- "intensity.n.02" [len=1.00]
+	"fight.v.02" -- "resist.v.02" [len=1.00]
+	"extent.n.02" -- "depth.n.01" [len=1.00]
+	"watch.v.01" -- "watch.v.03" [len=1.00]
+	"watch.v.01" -- "observe.v.04" [len=1.00]
+	"group.n.01" -- "people.n.01" [len=1.00]
+	"group.n.01" -- "social_group.n.01" [len=1.00]
+	"residence.n.01" -- "home.n.01" [len=1.00]
+	"interpret.v.01" -- "read.v.01" [len=1.00]
+	"understand.v.01" -- "read.v.10" [len=1.00]
+	"understand.v.01" -- "interpret.v.01" [len=1.00]
+	"natural_object.n.01" -- "body.n.01" [len=1.00]
+	"natural_object.n.01" -- "universe.n.01" [len=1.00]
+	"communication.n.02" -- "language.n.01" [len=1.00]
+	"communication.n.02" -- "message.n.02" [len=1.00]
+	"faculty.n.01" -- "language.n.05" [len=1.00]
+	"causal_agent.n.01" -- "person.n.01" [len=1.00]
+	"communicate.v.02" -- "talk.v.01" [len=1.00]
+	"communicate.v.02" -- "inform.v.01" [len=1.00]
+	"toast.v.02" -- "give.v.34" [len=1.00]
+	"answer.n.01" -- "feedback.n.02" [len=1.00]
+	"pedestrian.n.01" -- "hiker.n.01" [len=1.00]
+	"climber.n.04" -- "mountaineer.n.01" [len=1.00]
+	"better.v.02" -- "perfect.v.01" [len=1.00]
+	"suitability.n.01" -- "fitness.n.01" [len=1.00]
+	"hunter.n.01" -- "tracker.n.01" [len=1.00]
+	"property.n.04" -- "feature.n.01" [len=1.00]
+	"organ.n.01" -- "vital_organ.n.01" [len=1.00]
+	"organ.n.01" -- "internal_organ.n.01" [len=1.00]
+	"feeling.n.01" -- "temper.n.02" [len=1.00]
+	"feeling.n.01" -- "emotion.n.01" [len=1.00]
+	"index.n.02" -- "body_mass_index.n.01" [len=1.00]
+	"work_time.n.01" -- "hours.n.01" [len=1.00]
+	"opportunity.n.01" -- "day.n.09" [len=1.00]
+	"category.n.02" -- "kind.n.01" [len=1.00]
+	"change.v.02" -- "change_state.v.01" [len=1.00]
+	"extremity.n.05" -- "hand.n.01" [len=1.00]
+	"artifact.n.01" -- "instrumentality.n.03" [len=1.00]
+	"artifact.n.01" -- "structure.n.01" [len=1.00]
+	"artifact.n.01" -- "creation.n.02" [len=1.00]
+	"artifact.n.01" -- "decoration.n.01" [len=1.00]
+	"indicate.v.03" -- "read.v.08" [len=1.00]
+	"cognition.n.01" -- "structure.n.03" [len=1.00]
+	"cognition.n.01" -- "ability.n.02" [len=1.00]
+	"cognition.n.01" -- "content.n.05" [len=1.00]
+	"cognition.n.01" -- "process.n.02" [len=1.00]
+	"ideal.n.01" -- "exemplar.n.01" [len=1.00]
+	"reproduce.v.01" -- "imitate.v.01" [len=1.00]
+	"reason.v.03" -- "speculate.v.02" [len=1.00]
+	"complete.v.01" -- "carry_through.v.01" [len=1.00]
+	"effect.v.01" -- "carry_through.v.01" [len=1.00]
+	"thinking.n.01" -- "problem_solving.n.02" [len=1.00]
+	"analyze.v.01" -- "investigate.v.01" [len=1.00]
+	"capitalist.n.02" -- "businessperson.n.01" [len=1.00]
+	"organization.n.01" -- "institution.n.01" [len=1.00]
+	"think.v.03" -- "evaluate.v.02" [len=1.00]
+	"think.v.03" -- "reason.v.03" [len=1.00]
+	"emblem.n.01" -- "flag.n.01" [len=1.00]
+	"perceive.v.01" -- "spy.v.03" [len=1.00]
+	"malignancy.n.01" -- "malignant_tumor.n.01" [len=1.00]
+	"tumor.n.01" -- "malignant_tumor.n.01" [len=1.00]
+	"event.n.01" -- "happening.n.01" [len=1.00]
+	"event.n.01" -- "act.n.02" [len=1.00]
+	"know.v.01" -- "recognize.v.02" [len=1.00]
+	"identify.v.01" -- "distinguish.v.01" [len=1.00]
+	"quality.n.01" -- "appearance.n.01" [len=1.00]
+	"quality.n.01" -- "difference.n.01" [len=1.00]
+	"quality.n.01" -- "good.n.03" [len=1.00]
+	"quality.n.01" -- "suitability.n.01" [len=1.00]
+	"quality.n.01" -- "regularity.n.02" [len=1.00]
+	"equal.v.01" -- "match.v.01" [len=1.00]
+	"use.n.01" -- "application.n.01" [len=1.00]
+	"assets.n.01" -- "share.n.01" [len=1.00]
+	"structure.n.01" -- "building.n.01" [len=1.00]
+	"boundary.n.01" -- "surface.n.02" [len=1.00]
+	"assistant.n.01" -- "attendant.n.01" [len=1.00]
+	"attribute.n.02" -- "state.n.02" [len=1.00]
+	"attribute.n.02" -- "quality.n.01" [len=1.00]
+	"attribute.n.02" -- "property.n.02" [len=1.00]
+	"section.n.03" -- "vicinity.n.01" [len=1.00]
+	"defender.n.01" -- "custodian.n.01" [len=1.00]
+	"offspring.n.01" -- "child.n.02" [len=1.00]
+	"good_fortune.n.01" -- "prosperity.n.02" [len=1.00]
+	"measure.n.02" -- "fundamental_quantity.n.01" [len=1.00]
+	"property.n.02" -- "physical_property.n.01" [len=1.00]
+	"property.n.02" -- "degree.n.01" [len=1.00]
+	"property.n.02" -- "magnitude.n.01" [len=1.00]
+	"emotional_state.n.01" -- "gratification.n.01" [len=1.00]
+	"superior.n.01" -- "supervisor.n.01" [len=1.00]
+	"living_thing.n.01" -- "organism.n.01" [len=1.00]
+	"regularity.n.02" -- "orderliness.n.01" [len=1.00]
+	"creation.n.02" -- "representation.n.02" [len=1.00]
+	"physical_entity.n.01" -- "thing.n.12" [len=1.00]
+	"physical_entity.n.01" -- "causal_agent.n.01" [len=1.00]
+	"physical_entity.n.01" -- "object.n.01" [len=1.00]
+	"object.n.01" -- "location.n.01" [len=1.00]
+	"object.n.01" -- "whole.n.02" [len=1.00]
+	"contend.v.06" -- "fight.v.02" [len=1.00]
+	"magnitude.n.01" -- "extent.n.02" [len=1.00]
+	"abstraction.n.06" -- "group.n.01" [len=1.00]
+	"abstraction.n.06" -- "communication.n.02" [len=1.00]
+	"abstraction.n.06" -- "attribute.n.02" [len=1.00]
+	"abstraction.n.06" -- "measure.n.02" [len=1.00]
+	"abstraction.n.06" -- "psychological_feature.n.01" [len=1.00]
+	"abstraction.n.06" -- "relation.n.01" [len=1.00]
+	"address.n.02" -- "residence.n.01" [len=1.00]
+	"whole.n.02" -- "natural_object.n.01" [len=1.00]
+	"whole.n.02" -- "artifact.n.01" [len=1.00]
+	"whole.n.02" -- "living_thing.n.01" [len=1.00]
+	"ability.n.02" -- "faculty.n.01" [len=1.00]
+	"interact.v.01" -- "communicate.v.02" [len=1.00]
+	"honor.v.01" -- "toast.v.02" [len=1.00]
+	"statement.n.01" -- "answer.n.01" [len=1.00]
+	"traveler.n.01" -- "pedestrian.n.01" [len=1.00]
+	"skilled_worker.n.01" -- "hunter.n.01" [len=1.00]
+	"concept.n.01" -- "property.n.04" [len=1.00]
+	"concept.n.01" -- "category.n.02" [len=1.00]
+	"body_part.n.01" -- "organ.n.01" [len=1.00]
+	"body_part.n.01" -- "external_body_part.n.01" [len=1.00]
+	"fact.n.02" -- "index.n.02" [len=1.00]
+	"possibility.n.02" -- "opportunity.n.01" [len=1.00]
+	"external_body_part.n.01" -- "extremity.n.05" [len=1.00]
+	"psychological_feature.n.01" -- "cognition.n.01" [len=1.00]
+	"psychological_feature.n.01" -- "event.n.01" [len=1.00]
+	"idea.n.01" -- "ideal.n.01" [len=1.00]
+	"idea.n.01" -- "concept.n.01" [len=1.00]
+	"produce.v.02" -- "reproduce.v.01" [len=1.00]
+	"end.v.02" -- "complete.v.01" [len=1.00]
+	"cause.v.01" -- "effect.v.01" [len=1.00]
+	"higher_cognitive_process.n.01" -- "thinking.n.01" [len=1.00]
+	"social_group.n.01" -- "organization.n.01" [len=1.00]
+	"design.n.04" -- "emblem.n.01" [len=1.00]
+	"disease.n.01" -- "malignancy.n.01" [len=1.00]
+	"growth.n.06" -- "tumor.n.01" [len=1.00]
+	"determine.v.03" -- "identify.v.01" [len=1.00]
+	"possession.n.02" -- "assets.n.01" [len=1.00]
+	"extremity.n.04" -- "boundary.n.01" [len=1.00]
+	"area.n.01" -- "section.n.03" [len=1.00]
+	"preserver.n.03" -- "defender.n.01" [len=1.00]
+	"relative.n.01" -- "offspring.n.01" [len=1.00]
+	"fortune.n.04" -- "good_fortune.n.01" [len=1.00]
+	"emotion.n.01" -- "emotional_state.n.01" [len=1.00]
+	"leader.n.01" -- "superior.n.01" [len=1.00]
+	"geographic_point.n.01" -- "address.n.02" [len=1.00]
+	"recognize.v.09" -- "honor.v.01" [len=1.00]
+	"message.n.02" -- "statement.n.01" [len=1.00]
+	"message.n.02" -- "information.n.01" [len=1.00]
+	"information.n.01" -- "fact.n.02" [len=1.00]
+	"content.n.05" -- "idea.n.01" [len=1.00]
+	"process.n.02" -- "higher_cognitive_process.n.01" [len=1.00]
+	"decoration.n.01" -- "design.n.04" [len=1.00]
+	"illness.n.01" -- "disease.n.01" [len=1.00]
+	"illness.n.01" -- "growth.n.06" [len=1.00]
+	"relation.n.01" -- "possession.n.02" [len=1.00]
+	"region.n.03" -- "area.n.01" [len=1.00]
+	"condition.n.03" -- "fortune.n.04" [len=1.00]
+	"point.n.02" -- "geographic_point.n.01" [len=1.00]
+	"prize.v.01" -- "recognize.v.09" [len=1.00]
+	"ill_health.n.01" -- "illness.n.01" [len=1.00]
+	"see.v.05" -- "prize.v.01" [len=1.00]
+	"pathological_state.n.01" -- "ill_health.n.01" [len=1.00]
+	"think.v.01" -- "see.v.05" [len=1.00]
+	"physical_condition.n.01" -- "pathological_state.n.01" [len=1.00]
+	subgraph child {
+		rank=same
+		"line_up.v.02"
+		"lose.v.05"
+		"use.v.01"
+		"use.v.03"
+		"state.v.01"
+		"say.v.11"
+		"utilitarian.s.01"
+		"predict.v.01"
+		"behavioral.a.01"
+		"form.n.03"
+		"pattern.n.05"
+		"model.v.01"
+		"suppose.v.01"
+		"criminal.n.01"
+		"criminal.s.02"
+		"student.n.01"
+		"do.v.03"
+		"inquiry.n.01"
+		"research.v.01"
+		"possibly.r.01"
+		"track.v.02"
+		"physical.s.07"
+		"life.n.01"
+		"life.n.06"
+		"top.n.06"
+		"achieve.v.01"
+		"businessman.n.01"
+		"company.n.01"
+		"isolate.v.01"
+		"expect.v.01"
+		"behavior.n.01"
+		"employee.n.01"
+		"anticipate.v.02"
+		"motion.n.03"
+		"motion.n.06"
+		"employment.n.02"
+		"day.n.02"
+		"establish.v.05"
+		"fairly.r.02"
+		"true.s.10"
+		"standard.n.06"
+		"use.v.02"
+		"exploited.s.02"
+		"detect.v.01"
+		"cancer.n.01"
+		"early.a.02"
+		"know.v.02"
+		"know.v.09"
+		"know.v.10"
+		"normal.a.02"
+		"liver.n.01"
+		"look.n.03"
+		"look.v.09"
+		"like.n.01"
+		"scan.v.01"
+		"microscopic.s.04"
+		"variety.n.06"
+		"present.a.02"
+		"technology.n.01"
+		"help.v.01"
+		"burn.v.01"
+		"way.n.12"
+		"house.n.12"
+		"go.v.02"
+		"inside.n.02"
+		"rocker.n.01"
+		"shaking.n.02"
+		"movement.n.03"
+		"detector.n.01"
+		"proximity.n.02"
+		"enable.v.01"
+		"child.n.01"
+		"caretaker.n.01"
+		"baby.n.01"
+		"benefit.n.02"
+		"wellbeing.n.01"
+		"besides.r.02"
+		"indicate.v.02"
+		"temperature.n.01"
+		"comfort.n.01"
+		"comfort.n.05"
+		"proctor.n.01"
+		"animal.n.01"
+		"able.s.03"
+		"watch.v.04"
+		"directly.r.01"
+		"directly.r.02"
+		"watch.v.06"
+		"familiar.a.01"
+		"organization.n.05"
+		"research.v.02"
+		"explore.v.02"
+		"map.n.01"
+		"deep.s.11"
+		"ocean.n.01"
+		"visibility.n.01"
+		"either.r.01"
+		"low.n.03"
+		"not.r.01"
+		"existent.a.01"
+		"machine.n.01"
+		"resist.v.02"
+		"depth.n.01"
+		"watch.v.03"
+		"people.n.01"
+		"home.n.01"
+		"read.v.01"
+		"read.v.10"
+		"body.n.01"
+		"language.n.01"
+		"language.n.05"
+		"talk.v.01"
+		"give.v.34"
+		"real.s.03"
+		"time.n.01"
+		"feedback.n.02"
+		"wear.n.03"
+		"useful.a.01"
+		"explorer.n.01"
+		"far.a.01"
+		"far.s.02"
+		"universe.n.01"
+		"hiker.n.01"
+		"mountaineer.n.01"
+		"survivalist.n.01"
+		"perfect.v.01"
+		"perfect.s.03"
+		"health.n.02"
+		"fitness.n.01"
+		"tracker.n.01"
+		"feature.n.01"
+		"combined.a.01"
+		"vital_organ.n.01"
+		"temper.n.02"
+		"body_mass_index.n.01"
+		"test.v.01"
+		"hours.n.01"
+		"day.n.09"
+		"change_state.v.01"
+		"hand.n.01"
+		"sized.a.01"
+	}
+}

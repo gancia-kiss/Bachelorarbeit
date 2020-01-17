@@ -1,0 +1,1 @@
+[Synset('model.n.01'), Synset('framework.n.02'), Synset('framework.n.03')]
