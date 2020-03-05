@@ -1,7 +1,0 @@
-graph physical_entity {
-	"physical_entity.n.01" -- "process.n.06"
-	"physical_entity.n.01" -- "causal_agent.n.01"
-	"physical_entity.n.01" -- "object.n.01"
-	"physical_entity.n.01" -- "thing.n.12"
-	"physical_entity.n.01" -- "matter.n.03"
-}
